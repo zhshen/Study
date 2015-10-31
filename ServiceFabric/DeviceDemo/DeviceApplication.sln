@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "DeviceApplication", "DeviceApplication\DeviceApplication.sfproj", "{B86290B5-B4D7-4024-BCE8-296BB3F4A5B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceActor", "DeviceActor\DeviceActor.csproj", "{B8CF327E-A4C7-450D-9D8C-E51216380213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceActor.Interfaces", "DeviceActor.Interfaces\DeviceActor.Interfaces.csproj", "{99EA2E66-E97F-45A7-B7DF-0DC2E3237529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceApplication.Client", "DeviceApplication.Client\DeviceApplication.Client.csproj", "{930779EB-9E36-4A3D-AA15-4196B7C2FE80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B86290B5-B4D7-4024-BCE8-296BB3F4A5B6}.Debug|x64.ActiveCfg = Debug|x64
+		{B86290B5-B4D7-4024-BCE8-296BB3F4A5B6}.Debug|x64.Build.0 = Debug|x64
+		{B86290B5-B4D7-4024-BCE8-296BB3F4A5B6}.Debug|x64.Deploy.0 = Debug|x64
+		{B86290B5-B4D7-4024-BCE8-296BB3F4A5B6}.Release|x64.ActiveCfg = Release|x64
+		{B86290B5-B4D7-4024-BCE8-296BB3F4A5B6}.Release|x64.Build.0 = Release|x64
+		{B86290B5-B4D7-4024-BCE8-296BB3F4A5B6}.Release|x64.Deploy.0 = Release|x64
+		{B8CF327E-A4C7-450D-9D8C-E51216380213}.Debug|x64.ActiveCfg = Debug|x64
+		{B8CF327E-A4C7-450D-9D8C-E51216380213}.Debug|x64.Build.0 = Debug|x64
+		{B8CF327E-A4C7-450D-9D8C-E51216380213}.Release|x64.ActiveCfg = Release|x64
+		{B8CF327E-A4C7-450D-9D8C-E51216380213}.Release|x64.Build.0 = Release|x64
+		{99EA2E66-E97F-45A7-B7DF-0DC2E3237529}.Debug|x64.ActiveCfg = Debug|x64
+		{99EA2E66-E97F-45A7-B7DF-0DC2E3237529}.Debug|x64.Build.0 = Debug|x64
+		{99EA2E66-E97F-45A7-B7DF-0DC2E3237529}.Release|x64.ActiveCfg = Release|x64
+		{99EA2E66-E97F-45A7-B7DF-0DC2E3237529}.Release|x64.Build.0 = Release|x64
+		{930779EB-9E36-4A3D-AA15-4196B7C2FE80}.Debug|x64.ActiveCfg = Debug|x64
+		{930779EB-9E36-4A3D-AA15-4196B7C2FE80}.Debug|x64.Build.0 = Debug|x64
+		{930779EB-9E36-4A3D-AA15-4196B7C2FE80}.Release|x64.ActiveCfg = Release|x64
+		{930779EB-9E36-4A3D-AA15-4196B7C2FE80}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
