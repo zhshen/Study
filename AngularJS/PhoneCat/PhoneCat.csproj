@@ -66,6 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="demos\app.js" />
+    <Content Include="demos\controllers.js" />
+    <Content Include="demos\partials\phone-detail.html" />
+    <Content Include="demos\partials\phone-list.html" />
+    <Content Include="demos\RoutingMultipleViews.aspx" />
+    <Content Include="lib\angular\angular-route.min.js" />
     <Content Include="packages.config" />
     <Content Include="lib\bootstrap-3.3.5-dist\css\bootstrap-theme.css.map" />
     <Content Include="lib\bootstrap-3.3.5-dist\css\bootstrap.css.map" />
@@ -226,6 +232,13 @@
     </Compile>
     <Compile Include="demos\FilteringRepeaters.aspx.designer.cs">
       <DependentUpon>FilteringRepeaters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demos\RoutingMultipleViews.aspx.cs">
+      <DependentUpon>RoutingMultipleViews.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demos\RoutingMultipleViews.aspx.designer.cs">
+      <DependentUpon>RoutingMultipleViews.aspx</DependentUpon>
     </Compile>
     <Compile Include="demos\TemplatingLinksImages.aspx.cs">
       <DependentUpon>TemplatingLinksImages.aspx</DependentUpon>
