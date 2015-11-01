@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1BA5EE2F-EE32-4928-8087-1AA7C374B36C}</ProjectGuid>
+    <ProjectGuid>{804FEFAA-4017-4D65-91E0-51ADCB49D430}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -104,15 +104,10 @@
   <ItemGroup>
     <Content Include="css\animations.css" />
     <Content Include="css\app.css" />
-    <Content Include="demos\Bootstrapping.aspx" />
-    <Content Include="demos\TemplatingLinksImages.aspx" />
-    <Content Include="demos\XHR-phones-controller.js" />
-    <Content Include="demos\AngularTemplatesController.js" />
     <Content Include="demos\AngularTemplates.aspx" />
+    <Content Include="demos\AngularTemplatesController.js" />
+    <Content Include="demos\Bootstrapping.aspx" />
     <Content Include="demos\FilteringRepeaters.aspx" />
-    <Content Include="demos\TwoWayDataBinding.aspx" />
-    <Content Include="demos\XHRsDependencyInjection.aspx" />
-    <Content Include="Global.asax" />
     <Content Include="demos\img\glyphicons-halflings-white.png" />
     <Content Include="demos\img\glyphicons-halflings.png" />
     <Content Include="demos\img\phones\dell-streak-7.0.jpg" />
@@ -194,6 +189,11 @@
     <Content Include="demos\img\phones\t-mobile-mytouch-4g.3.jpg" />
     <Content Include="demos\img\phones\t-mobile-mytouch-4g.4.jpg" />
     <Content Include="demos\img\phones\t-mobile-mytouch-4g.5.jpg" />
+    <Content Include="demos\TemplatingLinksImages.aspx" />
+    <Content Include="demos\TwoWayDataBinding.aspx" />
+    <Content Include="demos\XHR-phones-controller.js" />
+    <Content Include="demos\XHRsDependencyInjection.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="lib\angular\angular.min.js" />
     <Content Include="lib\bootstrap-3.3.5-dist\css\bootstrap-theme.css" />
     <Content Include="lib\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" />
@@ -206,19 +206,19 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="demos\Bootstrapping.aspx.cs">
-      <DependentUpon>Bootstrapping.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="demos\Bootstrapping.aspx.designer.cs">
-      <DependentUpon>Bootstrapping.aspx</DependentUpon>
-    </Compile>
     <Compile Include="demos\AngularTemplates.aspx.cs">
       <DependentUpon>AngularTemplates.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="demos\AngularTemplates.aspx.designer.cs">
       <DependentUpon>AngularTemplates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demos\Bootstrapping.aspx.cs">
+      <DependentUpon>Bootstrapping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demos\Bootstrapping.aspx.designer.cs">
+      <DependentUpon>Bootstrapping.aspx</DependentUpon>
     </Compile>
     <Compile Include="demos\FilteringRepeaters.aspx.cs">
       <DependentUpon>FilteringRepeaters.aspx</DependentUpon>
@@ -270,7 +270,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>32175</DevelopmentServerPort>
+          <DevelopmentServerPort>48639</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:32175/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
