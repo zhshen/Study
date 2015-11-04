@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../css/app.css">
     <script src="../lib/angular/angular.min.js"></script>
     <script src="../lib/angular/angular-route.min.js"></script>
-    <script src="app.js"></script>
-    <script src="controllers.js"></script>
+    <script src="rmvApp.js"></script>
+    <script src="rmvControllers.js"></script>
 </head>
 <body>
     <div ng-view></div>

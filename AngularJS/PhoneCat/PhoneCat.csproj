@@ -66,8 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="demos\app.js" />
-    <Content Include="demos\controllers.js" />
+    <Content Include="demos\rmvApp.js" />
+    <Content Include="demos\rmvControllers.js" />
     <Content Include="demos\partials\phone-detail.html" />
     <Content Include="demos\partials\phone-list.html" />
     <Content Include="demos\RoutingMultipleViews.aspx" />
