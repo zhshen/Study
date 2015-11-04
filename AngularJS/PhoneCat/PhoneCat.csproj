@@ -66,7 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="demos\moreTemplating.aspx" />
+    <Content Include="demos\mtApp.js" />
+    <Content Include="demos\partials\mt-phone-detail.html" />
     <Content Include="demos\rmvApp.js" />
+    <Content Include="demos\mtControllers.js" />
     <Content Include="demos\rmvControllers.js" />
     <Content Include="demos\partials\phone-detail.html" />
     <Content Include="demos\partials\phone-list.html" />
@@ -232,6 +236,13 @@
     </Compile>
     <Compile Include="demos\FilteringRepeaters.aspx.designer.cs">
       <DependentUpon>FilteringRepeaters.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demos\moreTemplating.aspx.cs">
+      <DependentUpon>moreTemplating.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demos\moreTemplating.aspx.designer.cs">
+      <DependentUpon>moreTemplating.aspx</DependentUpon>
     </Compile>
     <Compile Include="demos\RoutingMultipleViews.aspx.cs">
       <DependentUpon>RoutingMultipleViews.aspx</DependentUpon>
